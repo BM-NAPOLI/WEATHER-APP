@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <div class="container">
+        <!-- Main Weather Card -->
+        <div class="weather-card">
+            <!-- Search Section -->
+            <div class="search-section">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search city..." aria-label="Search for a city">
+                    <button class="search-btn">
+                        <span class="search-icon">🔍</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Location & Date -->
+            <div class="header">
+                <h1 class="city">Agadir</h1>
+                <p class="date">Monday, March 01, 2010</p>
+            </div>
+
+            <!-- Temperature Display (Large) -->
+            <div class="temperature-display">
+                <div class="temp-value-large">19°</div>
+            </div>
+
+            <!-- Weather Icon (Below Temperature) -->
+            <div class="weather-icon-section">
+                <div class="weather-icon-large sun">☀️</div>
+            </div>
+
+            <!-- Weather Condition -->
+            <div class="weather-condition-section">
+                <p class="condition-text">Clear Sky</p>
+            </div>
+
+            <!-- Extra Details (Mini Cards) -->
+            <div class="details-section">
+                <div class="detail-card">
+                    <div class="detail-icon">💧</div>
+                    <p class="detail-label">Humidity</p>
+                    <p class="detail-value">65%</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">💨</div>
+                    <p class="detail-label">Wind Speed</p>
+                    <p class="detail-value">12 km/h</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">⚖️</div>
+                    <p class="detail-label">Pressure</p>
+                    <p class="detail-value">1013 mb</p>
+                </div>
+            </div>
+
+            <!-- 5-Day Forecast (Estimation) -->
+            <div class="forecast-section">
+                <h2 class="forecast-title">5-Day Forecast</h2>
+                <div class="forecast-cards">
+                    <div class="forecast-card">
+                        <p class="forecast-day">Tue</p>
+                        <div class="forecast-icon">⛅</div>
+                        <p class="forecast-temp">20°</p>
+                    </div>
+                    <div class="forecast-card">
+                        <p class="forecast-day">Wed</p>
+                        <div class="forecast-icon">☁️</div>
+                        <p class="forecast-temp">21°</p>
+                    </div>
+                    <div class="forecast-card">
+                        <p class="forecast-day">Thu</p>
+                        <div class="forecast-icon">☀️</div>
+                        <p class="forecast-temp">22°</p>
+                    </div>
+                    <div class="forecast-card">
+                        <p class="forecast-day">Fri</p>
+                        <div class="forecast-icon">⛅</div>
+                        <p class="forecast-temp">20°</p>
+                    </div>
+                    <div class="forecast-card">
+                        <p class="forecast-day">Sat</p>
+                        <div class="forecast-icon">☀️</div>
+                        <p class="forecast-temp">23°</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright footer -->
+    <footer class="site-footer">© 2026 RAYAN MINAZZOU — AL GARGARAT</footer>
+
+    <!-- Subtle watermark -->
+    <div class="copyright-watermark">RAYAN MINAZZOU</div>
+</body>
+<script src="./app.js"></script>
+
+</html>
